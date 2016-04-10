@@ -1,26 +1,53 @@
 body{
-  font-family: "Helvetica";
-  text-align: center;
-  padding: 50px 20px 0;
-  background: #f4f4f7;
-  color: #444;
-  margin: 0;
+    font-family: "Helvetica";
+    text-align: center;
+    padding: 50px 20px 0;
+    background: #f4f4f7;
+    color: #444;
+    margin: 0;
 }
-
-h1{
-  font-size: 10em;
-  line-height: 1.2em;
-  border-bottom: #CCC solid 1px;
-  padding: 20px 0;
+h1 {
+    line-height: 1.2em;
+    border-bottom: #CCC solid 1px;
+    padding: 20px 0;
 }
-
+h1 > a {
+    text-decoration: none;
+    color: #444;
+}
 h3{
-  font-weight: 300;
+    font-weight: 300;
 }
-
 #content {
     display: flex;
     flex-direction: column;
-    height: 100%;
-    width: 100%;
+    align-items: center;
+    cursor: pointer;
+}
+@media (min-width: 700px) {
+    h1#title {
+        font-size: 10em;
+    }
+    div#extra {
+        transition: opacity 0.5s linear;
+    }
+    div#content:target > div#extra,
+    div#content:hover > div#extra,
+    div#content:focus > div#extra,
+    div#content:active > div#extra {
+        opacity:1;
+    }
+    div#content:not(:target):not(:hover):not(:focus) > div#extra {
+        visibility: collapse;
+        opacity:0;
+        transition: visibility 0s linear 0.5s,opacity 0.5s linear;
+    }
+    div#extra {
+        width: 75%;
+    }
+}
+@media (max-width: 700px) {
+    h1#title {
+        font-size: 5em;
+    }
 }

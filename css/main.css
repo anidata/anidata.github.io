@@ -49,12 +49,20 @@ div#title-wrapper {
     cursor: pointer;
 }
 
+div.blog-post {
+    margin: 0em 10em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    cursor: pointer;
+}
+
 div.post > a {
     text-decoration: none;
     color: #444;
 }
 
-.post-meta {
+.post-info {
     font-size: 1.5em;
 }
 

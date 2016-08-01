@@ -12,3 +12,4 @@ paginate: 3
 
 gems:
     - jekyll-redirect-from
+    - jekyll-paginate

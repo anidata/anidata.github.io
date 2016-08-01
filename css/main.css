@@ -49,14 +49,6 @@ div#title-wrapper {
     cursor: pointer;
 }
 
-div.blog-post {
-    margin: 0em 10em;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    cursor: pointer;
-}
-
 div.post > a {
     text-decoration: none;
     color: #444;
@@ -75,6 +67,22 @@ div#padding {
     height: 40px;
 }
 
+div.footer {
+    padding: 0;
+    margin: 0;
+    position: fixed;
+    bottom: 0;
+    height: 35px;
+    width: 100%;
+    display: flex;
+    background: rgb(200, 200, 200);
+    box-shadow: inset 0 0 10px #f4f4f7;
+    border-color: #202020;
+    color: rgba(192, 192, 192, 0.2);
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
 div#top-bar {
     position: fixed;
     height: 30px;
@@ -89,10 +97,34 @@ div#top-bar {
     border-bottom-right-radius: 15px;
 }
 
-div#top-bar > ul > li#me {
+ul.contact-us {
+    font-size: 90%;
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    list-style-type: none;
+    height: 50px;
+    padding: 0em 0em 0em 2em;
+}
+
+ul.contact-us > li {
+    padding: 5px;
+    height: 100%;
+    text-align: center;
+}
+
+ul.contact-us > li#git {
     margin-left: auto;
     align-self: flex-start;
     font-size: 150%;
+    opacity: 0.8;
+}
+
+div#top-bar > ul > li#me {
+    margin-left: auto;
+    align-self: flex-start;
     opacity: 0.8;
 }
 
@@ -118,13 +150,17 @@ ul.navigation {
     align-items: center;
     list-style-type: none;
     height: 50px;
-    padding: 0em 0em 0em 5em;
+    padding: 0em 0em 0em 2em;
 }
 
 ul.navigation > li.item {
     padding: 5px;
     height: 100%;
     text-align: center;
+}
+
+ul.navigation > li.item > a > img {
+    top-padding: 10px
 }
 
 li.item > a {
@@ -151,10 +187,6 @@ div.text {
         font-size: 10em;
     }
 
-    div#extra {
-        transition: opacity 0.5s linear;
-    }
-
     div#title-content:target > div#extra,
     div#title-content:hover > div#extra,
     div#title-content:focus > div#extra,
@@ -169,12 +201,36 @@ div.text {
     }
 
     div#extra {
+        transition: opacity 0.5s linear;
         text-align: center;
         width: 75%;
     }
+
+    div.blog-post {
+        margin: 0em 10em;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        cursor: pointer;
+    }
 }
+
 @media (max-width: 700px) {
     h1#title {
         font-size: 5em;
+    }
+
+    div#extra {
+        transition: opacity 0.5s linear;
+        text-align: center;
+        width: 90%;
+    }
+
+    div.blog-post {
+        margin: 0em 1em;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        cursor: pointer;
     }
 }

@@ -3,17 +3,21 @@ layout: default
 ---
 
 <div>
-    <div id="blog">
-      <div>
-        {% for post in paginator.posts %}
-          <div class="post">
-            <a href="{{ post.url | prepend: site.baseurl }}" class="post-link">
-              <p class="post-info">{{ post.date | date: "%b %-d, %Y" }}</p>
-              <h3 class="post-title">{{ post.title }}</h3>
-              <p class="post-summary">{{ post.summary }}</p>
+    {% for post in paginator.posts %}
+      <div class="media">
+        <div class="media-left">
+          {% if post.media %}
+            <img class="media-object" src="..." alt="...">
+          {% endif %}
+        </div>
+        <div class="media-body">
+          <a href="{{ post.url | prepend: site.baseurl }}">
+              <h3 class="main">{{ post.title }}</h3>
+              <p>{{ post.date | date: "%b %-d, %Y" }}</p>
+              <p>{{ post.content | truncatewords:50 | strip_html }}</p>
+
             </a>
-          </div>
-        {% endfor %}
+        </div>
       </div>
-    </div>
+    {% endfor %}
 </div>

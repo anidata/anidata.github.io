@@ -1,0 +1,21 @@
+---
+---
+    
+@import "variables";
+@import "bootstrap";
+
+.main {
+	color: $main;
+}
+
+.accent {
+	color: $accent;
+}
+
+.social {
+	margin-top: 15px;
+}
+
+.nounderline {
+	text-decoration: none;
+}

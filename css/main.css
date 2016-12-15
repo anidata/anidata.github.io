@@ -100,9 +100,9 @@ div#top-bar {
 ul.contact-us {
     font-size: 90%;
     margin: 0px;
-    padding: 0px;
+    padding: 0px 20px;
     display: flex;
-    flex-flow: column;
+    flex-flow: row;
     justify-content: center;
     list-style-type: none;
     height: 50px;
@@ -119,6 +119,13 @@ ul.contact-us > li#git {
     margin-left: auto;
     align-self: flex-start;
     font-size: 150%;
+    opacity: 0.8;
+}
+
+ul.contact-us > li#mail {
+    margin-left: auto;
+    align-self: flex-start;
+    font-size: 130%;
     opacity: 0.8;
 }
 

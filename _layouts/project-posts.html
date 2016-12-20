@@ -1,0 +1,17 @@
+---
+layout: default
+---
+
+<div class="media">
+  <div class="media-left">
+    {% if post.media %}
+	  <img class="media-object" src="..." alt="...">
+	{% endif %}
+  </div>
+  <div class="media-body">
+    <h4 class="media-heading main">{{ page.title }}</h4>
+    <p>{{ page.date | date: "%b %-d, %Y" }}</p>
+
+    {{ content }}
+  </div>
+</div>

@@ -15,4 +15,6 @@ summary:    Short summary
 ---
 ```
 
+The layout also determines which part of the website it is located at. "project-posts" as the layout is necessary for when creating project posts.
+
 The rest of the file is just a standard markdown document. Just remember to add any images used in the post to [/images](images)

@@ -12,10 +12,33 @@
 	color: $accent;
 }
 
+.white {
+	color: white;
+	&:active, &:hover, &:focus{
+		color: white;
+	}
+}
+
+.main-bg {
+	background-color: $main;
+}
+
+.accent-bg {
+	background-color: $accent;
+}
+
 .social {
 	margin-top: 15px;
 }
 
 .nounderline {
 	text-decoration: none;
+}
+
+.img-person {
+	max-height: 250px;
+}
+
+.btn-bio {
+	margin-top: 2em;
 }

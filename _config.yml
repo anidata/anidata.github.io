@@ -1,6 +1,6 @@
 # Site settings
-title: "Servo Blog"
-description: ""
+title: "anidata Website"
+description: "The website for the anidata organization."
 url: "http://anidata.org"
 baseurl: ""
 google_analytics:

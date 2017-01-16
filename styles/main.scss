@@ -1,6 +1,6 @@
 ---
 ---
-    
+
 @import "variables";
 @import "bootstrap";
 
@@ -38,6 +38,12 @@
 .img-person {
 	max-height: 250px;
 }
+
+.img-thumbnail2{
+  max-height: 150px;
+  width: 150px;
+}
+
 
 .btn-bio {
 	margin-top: 2em;

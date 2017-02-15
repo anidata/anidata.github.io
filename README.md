@@ -2,7 +2,7 @@
 
 Anidata Web Page
 
-## Adding blog posts to [our blog](http://anidata.org/blog/index.html)
+## Adding blog posts to [our blog](http://Anidata.org/blog/index.html)
 
  1) Add a markdown file to the [_posts](_posts) directory with the format `year-month-day-title.md`
 

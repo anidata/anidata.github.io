@@ -35,8 +35,17 @@
 	text-decoration: none;
 }
 
+.show-link {
+	text-decoration: underline;
+	color: $accent;
+	&:active, &:hover, &:focus{
+		text-decoration: underline;
+		color: $accent;
+	}
+}
+
 .img-person {
-	max-height: 200px;
+	max-height: 150px;
 }
 
 .img-thumbnail2{
@@ -45,4 +54,5 @@
 
 .btn-bio {
 	margin-top: 2em;
+	margin-bottom: 2em;
 }

@@ -1,6 +1,6 @@
 # Site settings
-title: "anidata Website"
-description: "The website for the anidata organization."
+title: "Anidata Website"
+description: "The website for the Anidata organization."
 url: "http://anidata.org"
 baseurl: ""
 google_analytics:

@@ -46,3 +46,92 @@
 .btn-bio {
 	margin-top: 2em;
 }
+
+.starters {
+    a:hover {
+        border-bottom: 3px solid #ffeb3b;
+    }
+
+    #content {
+        max-width: 768px;
+        margin: 0 auto;
+    }
+
+    #issues {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+    }
+
+    #issues li {
+        margin-bottom: 20px;
+    }
+
+    .labels {
+        margin-top: 0;
+    }
+
+    .label:first-child {
+        margin-left: 0;
+    }
+
+    .label {
+        display: inline-block;
+        color: white;
+        font-weight: bold;
+        font-size: 9px;
+        padding: 4px 8px;
+        margin: 5px;
+        border-radius: 3px;
+    }
+
+    h2 {
+        border-bottom: 3px solid;
+        padding-bottom: 10px;
+    }
+
+    .view-all {
+        text-align: center;
+        font-style: italic;
+        color: #2196f3;
+        padding: 10px;
+    }
+
+    .view-all:hover {
+        cursor: pointer;
+        background-color: #eee;
+    }
+
+    .button {
+        display: block;
+        background-color: #4caf50;
+        color: white;
+        font-weight: bold;
+        margin: 0 auto;
+        padding: 10px 15px;
+        cursor: pointer;
+        border: none;
+        border-radius: 5px;
+        transition: 300ms;
+    }
+
+    .button:hover {
+        background-color: #ffeb3b;
+        transform: scale(1.1);
+        transition: 300ms;
+        color: black;
+    }
+
+    .time-wrapper {
+      border-bottom: #CAC7C7 solid 1px;
+      padding-bottom: 5px;
+    }
+    .time {
+      font-size: 0.75em;
+      color: rgba(140, 139, 139, 0.77);
+    }
+
+    .language-picker {
+      text-align: center;
+    }
+}

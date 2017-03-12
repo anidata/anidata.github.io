@@ -1,16 +1,32 @@
-members:
-  - position: President
-    name: Joe Smith
-    image: bob.jpeg
-    bio: Joe Smith began his career ....  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+board:
+  - position: Board Chairperson, Co-Founder
+    name: Vincent Emanuelle II, Ph.D.
+    image: vince.png
+    bio: Vincent Emanuele is a founder of Zylinium Research, a machine intelligence startup company in Maryland, and Board Chairperson of Anidata, a data science nonprofit that hacks data for social good. Other career highlights include founding the data science team at healthcare startup Wellcentive (acquired by Philips in 2015) and spending 6.5 years as a visiting research scientist at the Centers for Disease Control and Prevention. Dr. Emanuele received a Ph.D in Electrical and Computer Engineering from Georgia Tech, with a research area focused on signal processing and machine learning.
 
-  - position: Vice-President
-    name: Sally Wright
+  - position: Secretary, Co-Founder
+    name: Bob Baxley, Ph.D.
     image: bob.jpeg
-    bio: Sally Wright's career ....  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+    bio: Bob is the Chief Engineer at Bastille where he helps build systems to sift through massive amounts of radio frequency data.  He has more than 10 years of experience implementing machine learning systems with an emphasis on cognitive radios. Bob earned his PhD degree in Electrical Engineering from Georgia Tech. He has co-authored over 70 peer-reviewed papers, is the inventor of 17 patents, and formerly served as an Associate Editor for Digital Signal Processing. Bob is an Adjunct Faculty member in the School of ECE at Georgia Tech.
 
-  - position: At-Large
-    name: Morgan Smith
-    image: bob.jpeg
-    bio: Morgan Smith's career ....  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+  - position: Treasurer
+    name: Dan Robertson
+    image: dan.jpg
+    bio: Dan Robertson is a Software Engineer at Tripwire working on a network vulnerability scanner. Dan is a real autodidact, spending much of his free time coding in Python, C++, and the emerging high-performance language Rust. In his free time he enjoys contributing to open-source projects including LibreOffice and Servo.
 
+leadership:
+  - position: Executive Director
+    sub: 
+    name: Blake Fleischer, Ph.D.
+    image: blake.jpg
+    bio: Blake is ...
+  - position: Project Lead 
+    sub: (Fighting Human Trafficking)
+    name: Bryant Menn
+    image: bryant.png
+    bio: Bryant is a data scientist at Philips Wellcentive working on machine learning applications for patient care management. Prior to being a data scientist, he has worked as a data quality analyst and software engineer at Wellcentive developing an internal analytics platform. He has a bachelors in biomedical engineering from Georgia Tech. In his free time, he is usually is tinkering, getting his feet wet in IoT or experimenting with big data analytics/ML on his home server.
+  - position: Website Lead
+    sub: 
+    name: John Pearson, Ph.D.
+    image: johnpearson.jpg
+    bio: John is ... 

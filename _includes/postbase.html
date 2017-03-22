@@ -1,0 +1,15 @@
+<div class="media">
+  <div class="media-left media-middle">
+    {% if post.media %}
+      <img class="img-thumbnail2 hidden-xs media-object" src="{{ site.baseurl }}/images/{{ post.media }}" alt="...">
+    {% endif %}
+  </div>
+  <div class="media-body">
+    <a href="{{ post.url | prepend: site.baseurl }}">
+        <h3 class="main">{{ post.title }}</h3>
+        <p>{{ post.date | date: "%b %-d, %Y" }}</p>
+        <p>{{ post.content | truncatewords:50 | strip_html }}</p>
+
+      </a>
+  </div>
+</div>

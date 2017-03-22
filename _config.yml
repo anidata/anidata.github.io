@@ -1,14 +1,14 @@
 # Site settings
-title: "Servo Blog"
-description: ""
+title: "Anidata Website"
+description: "The website for the Anidata organization."
 url: "http://anidata.org"
 baseurl: ""
-google_analytics: 
+google_analytics:
 
 #  Build settings
 permalink: "/blog/:categories/:year/:month/:day/:title.html"
-paginate_path: "/blog/page:num"
-paginate: 3
+#paginate_path: "/blog/page:num"
+#paginate: 3
 
 gems:
     - jekyll-redirect-from

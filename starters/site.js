@@ -86,10 +86,7 @@ var makeLabelFriendly = function (label) {
 };
 
 var label = function (data) {
-    var color = (data.color === 'd7e102' ||
-                 data.color === 'bfd4f2' ||
-                 data.color === 'd4c5f9' ||
-                 data.color === '02d7e1') ? 'black' : 'white';
+    var color = ['E:less-easy', 'E:easy'].indexOf(data.name) != -1 ? 'white' : 'black';
 
     var friendlyLabel = makeLabelFriendly(data.name);
 
@@ -136,15 +133,11 @@ var labels = function (data) {
 
 var FilterLabel = React.createClass({
   render: function () {
-    var color = (this.props.color === 'd7e102' ||
-                 this.props.color === 'bfd4f2' ||
-                 this.props.color === 'd4c5f9' ||
-                 this.props.color === '02d7e1') ? 'black' : 'white';
 
     var friendlyLabel = makeLabelFriendly(this.props.name);
     return d.span({className: 'label',
                    style: {backgroundColor: '#' + this.props.color,
-                           color: color,
+                           color: 'black',
                            cursor: 'pointer',
                            opacity: this.props.selected ? 1.0 : 0.5},
                    onClick: this.props.onClick.bind(null, this.props)},

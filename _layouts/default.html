@@ -4,6 +4,8 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="icon" type="image/png" href="/images/favicon.png" />
+        {% assign folder = page.url | split: '/'  %}
+        <title>{{ site.title}}{% if folder[1] %} - {{ folder[1] | capitalize }} {% endif %}</title>
         <!-- Stylesheets -->
         <link rel="stylesheet" href="/styles/main.css">
         <!-- Javascript files -->

@@ -43,6 +43,30 @@
     }
 }
 
+.navbar {
+    border-radius: 0px;
+}
+
+body {
+  height: 100%;
+}
+
+#main-content {
+  min-height: 94%;
+}
+
+footer {
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: .5em;
+  margin-top: 1em;
+}
+
+#img-main {
+    width: 100%;
+}
+
 .img-person {
     max-height: 150px;
 }

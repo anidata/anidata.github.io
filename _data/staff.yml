@@ -1,10 +1,12 @@
 board:
-  - position: Board Chairperson, Co-Founder
+  - position: Board Chairperson
+    sub: Co-Founder
     name: Vincent Emanuelle II, Ph.D.
     image: vince.png
     bio: Vincent Emanuele is a founder of Zylinium Research, a machine intelligence startup company in Maryland, and Board Chairperson of Anidata, a data science nonprofit that hacks data for social good. Other career highlights include founding the data science team at healthcare startup Wellcentive (acquired by Philips in 2015) and spending 6.5 years as a visiting research scientist at the Centers for Disease Control and Prevention. Dr. Emanuele received a Ph.D in Electrical and Computer Engineering from Georgia Tech, with a research area focused on signal processing and machine learning.
 
-  - position: Secretary, Co-Founder
+  - position: Secretary
+    sub: Co-Founder
     name: Bob Baxley, Ph.D.
     image: bob.jpeg
     bio: Bob is the Chief Engineer at Bastille where he helps build systems to sift through massive amounts of radio frequency data.  He has more than 10 years of experience implementing machine learning systems with an emphasis on cognitive radios. Bob earned his PhD degree in Electrical Engineering from Georgia Tech. He has co-authored over 70 peer-reviewed papers, is the inventor of 17 patents, and formerly served as an Associate Editor for Digital Signal Processing. Bob is an Adjunct Faculty member in the School of ECE at Georgia Tech.
@@ -16,17 +18,22 @@ board:
 
 leadership:
   - position: Executive Director
-    sub: 
+    sub:
     name: Blake Fleischer, Ph.D.
     image: blake.jpg
     bio: Blake Fleischer is a research scientist and scientific computing consultant at the Georgia Tech Partnership for an Advanced Computing Environment (PACE), which provides GT and Emory researchers with high performance computing (HPC) research solutions. Blake is focused on research projects that optimize resource utilization and maximize hardware uptime and contributes to user education in Linux, HPC orientation, code optimization, and scientific computing.
-  - position: Project Lead 
-    sub: (Anti-Human Trafficking)
+  - position: Project Lead
+    sub: Anti-Human Trafficking
     name: Bryant Menn
     image: bryant.png
     bio: Bryant is a data scientist at Philips Wellcentive working on machine learning applications for patient care management. Prior to being a data scientist, he has worked as a data quality analyst and software engineer at Wellcentive developing an internal analytics platform. He has a bachelors in biomedical engineering from Georgia Tech. In his free time, he is usually is tinkering, getting his feet wet in IoT or experimenting with big data analytics/ML on his home server.
   - position: Website Lead
-    sub: 
+    sub:
     name: John Pearson, Ph.D.
     image: johnpearson.jpg
     bio: John is a science teacher who is interested in teaching students how to understand and work with data effectively.  As a member of Anidata, he is particularly focused on using data to increase transparency and enact social change.  John has been programming since he was 14 and has worked on varioius website projects through the years.  He received his Ph.D. from Georgia Tech in Mathematics.  His thesis "The Noncommutative Geometry of Ultrametric Cantor Sets" won the department's Best Thesis Award.
+  - position: Outreach Coordinator
+    sub:
+    name: Ann Vu
+    image: annvu.jpg
+    bio: Ann D. Vu is a product management analyst at ChartRequest working on multiple SaaS products to serve the internal operations, client-support, and consumer-focus platforms for medical records. Prior to entering the tech industry, she worked in healthcare operations to merge small clinics into a comprehensive multi-specialty patient care practice and at another practice as a B2B accounts receivable specialist to optimize revenue. In her free time, Ann enjoys devising plans to survive a dual AI/zombie apocalypse and forming her community of human survivors for the next living organism evolution.

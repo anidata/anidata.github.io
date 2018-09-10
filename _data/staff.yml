@@ -26,7 +26,15 @@ leadership:
     sub: Anti-Human Trafficking
     name: Bryant Menn
     image: bryant.png
-    bio: Bryant is a data scientist at Philips Wellcentive working on machine learning applications for patient care management. Prior to being a data scientist, he has worked as a data quality analyst and software engineer at Wellcentive developing an internal analytics platform. He has a bachelors in biomedical engineering from Georgia Tech. In his free time, he is usually is tinkering, getting his feet wet in IoT or experimenting with big data analytics/ML on his home server.
+    bio: >
+      Bryant is a machine learning engineer at Embedded Intelligence working
+      on a range of research projects. He has a background as a healthcare
+      data scientist focusing on patient care managment and also worked as a
+      data quality analyst and software engineer at Philips Wellcentive
+      developing an internal analytics platform. He has a bachelors in
+      biomedical engineering from Georgia Tech. In his free time, he is
+      usually is tinkering, getting his feet wet in IoT or experimenting
+      with big data analytics/ML on his home server.
   - position: Outreach Coordinator
     sub:
     name: Ann Vu
